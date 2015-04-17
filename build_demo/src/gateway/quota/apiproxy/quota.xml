@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="quota">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1429052948119</CreatedAt>
+    <CreatedBy>sarthak@apigee.com</CreatedBy>
+    <DisplayName>abc_123</DisplayName>
+    <LastModifiedAt>1429064135447</LastModifiedAt>
+    <LastModifiedBy>sarthak@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>LogQuotaViolations</Policy>
+        <Policy>Quota</Policy>
+        <Policy>RaiseFaultQuota</Policy>
+        <Policy>RaiseFaultSpikeArrest</Policy>
+        <Policy>SendTwilioMessage</Policy>
+        <Policy>Verify-API-Key</Policy>
+        <Policy>send-SMS</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

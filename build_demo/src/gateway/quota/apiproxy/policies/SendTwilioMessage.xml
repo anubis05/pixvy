@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SendTwilioMessage">
+    <DisplayName>SendTwilioMessage</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://api.twilio.com/2010-04-01/Accounts/AC1044694cf9232918da101ac632533f69/Messages.json</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

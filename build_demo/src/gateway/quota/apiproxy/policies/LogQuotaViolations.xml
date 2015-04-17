@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging  async="false" continueOnError="false" enabled="true" name="LogQuotaViolations">
+    <DisplayName>LogQuotaViolations</DisplayName>
+    <Syslog>
+        <Message>[dea7bf98-9391-4f72-9b57-3ef0ca878102@41058 Error="Quota Violation happened" DeveloperId={apigee.developer.id}  RequestTimestamp={client.received.end.timestamp} SourceIP={client.ip} EndpointName={apigee.apiproduct.name} APIName={apiproxy.name} TargetServer={target.ip} RequestStatus={message.status.code}]</Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>

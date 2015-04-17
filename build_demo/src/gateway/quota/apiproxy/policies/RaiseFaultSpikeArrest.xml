@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RaiseFaultSpikeArrest">
+    <DisplayName>RaiseFaultSpikeArrest</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="text/plain"> Enhance Your Calm !! And contact support at support
+            support@customername.com</Payload>
+            <StatusCode>420</StatusCode>
+            <ReasonPhrase>Enhance Your Calm !! </ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

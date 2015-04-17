@@ -2,6 +2,8 @@
     "configurations": [
         {
             "name": "test",
+            "policies": [],
+            "proxies": [],
             "targets": [
                 {
                     "name": "default.xml",
@@ -16,6 +18,8 @@
         },
         {
             "name": "prod",
+            "policies": [],
+            "proxies": [],
             "targets": [
                 {
                     "name": "default.xml",
